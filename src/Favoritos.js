@@ -2,9 +2,8 @@ import React from "react";
 
 export default function Favoritos() {
   const favoritos = [
-    { nome: "Brigadeiro", img: "https://images.unsplash.com/photo-1599785209707-2dc4f2cfcc0e?auto=format&fit=crop&w=300&q=80" },
-    { nome: "Pizza Caseira", img: "https://images.unsplash.com/photo-1601924582975-3d03f51fcd7e?auto=format&fit=crop&w=300&q=80" },
-    { nome: "Panquecas Americanas", img: "https://images.unsplash.com/photo-1617196033770-5c84e6508b5c?auto=format&fit=crop&w=300&q=80" },
+    { nome: "Brigadeiro", img: "./img/img5.jpg" },
+   
   ];
 
   return (
