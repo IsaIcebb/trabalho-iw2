@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Receitas from "./pages/Receitas";
-import Favoritos from "./pages/Favoritos";
-import Sobre from "./pages/Sobre";
+import Home from "./Home";
+import Receitas from "./Receitas";
+import Favoritos from "./Favoritos";
+import Sobre from "./Sobre";
 
 function App() {
   return (

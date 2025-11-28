@@ -6,7 +6,7 @@ export default function Sobre() {
       <h1>Sobre mim</h1>
       <p>Oi! Meu nome é Isa e adoro cozinhar. Este projeto é um trabalho de React para a faculdade.</p>
       <p>Aqui compartilho minhas receitas favoritas, novidades semanais e dicas simples de cozinha.</p>
-      <img src="" alt="Cozinhando" style={{ marginTop: "1rem", borderRadius: "8px", width: "100%", maxWidth: "400px" }} />
+      <img src="./img/img6.jpg" alt="Cozinhando" style={{ marginTop: "1rem", borderRadius: "8px", width: "100%", maxWidth: "400px" }} />
     </div>
   );
 }
