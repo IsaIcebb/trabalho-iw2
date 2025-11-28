@@ -9,14 +9,24 @@ export default function Home() {
         <h2>Novidades da semana:</h2>
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           <div style={{ background: "#EDE9FE", padding: "1rem", borderRadius: "8px", width: "200px" }}>
-            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=200&q=80" alt="Asinha de frango" style={{ width: "100%", borderRadius: "8px" }} />
-            <h3>Bolo de Chocolate</h3>
-            <p>Novidade deliciosa para adoçar seu dia!</p>
+            <img src="./img/img1.avif" alt="Asinha de frango" style={{ width: "100%", borderRadius: "8px" }} />
+            <h3>Asinha de frango no moho e laranja</h3>
+            <p>Novidade deliciosa para aperfeiçoar  seu dia!</p>
           </div>
           <div style={{ background: "#EDE9FE", padding: "1rem", borderRadius: "8px", width: "200px" }}>
-            <img src="https://images.unsplash.com/photo-1617196033770-5c84e6508b5c?auto=format&fit=crop&w=200&q=80" alt="Panqueca de Banana" style={{ width: "100%", borderRadius: "8px" }} />
+            <img src="./img/img2.jpg" alt="Panqueca de Banana" style={{ width: "100%", borderRadius: "8px" }} />
             <h3>Panqueca de Banana</h3>
             <p>Leve e deliciosa para o café da manhã!</p>
+          </div>
+          <div style={{ background: "#EDE9FE", padding: "1rem", borderRadius: "8px", width: "200px" }}>
+            <img src="./img/img3.jpg" alt="Bolo de cenoura" style={{ width: "100%", borderRadius: "8px" }} />
+            <h3>Bolo de cenoura</h3>
+            <p>massa macia e deliciosa para o café da tade em família!</p>
+          </div>
+          <div style={{ background: "#EDE9FE", padding: "1rem", borderRadius: "8px", width: "200px" }}>
+            <img src="./img/img4.jpg" alt="Salgadinho frito" style={{ width: "100%", borderRadius: "8px" }} />
+            <h3>Salgadinho frito</h3>
+            <p>Ótima opção para fazer em festinhas!</p>
           </div>
         </div>
       </div>
