@@ -1,0 +1,77 @@
+:root{
+  --purple-pastel: #c9a9ff;
+  --lavender: #e9d9ff;
+  --pink-pastel: #ffd6f0;
+  --mint: #dfffe0;
+  --text: #2b2b2b;
+}
+
+*{box-sizing:border-box;font-family: "Segoe UI", Roboto, sans-serif;color:var(--text);}
+
+body, html, #root { height: 100%; margin: 0; }
+
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 20px;
+  background: linear-gradient(90deg, rgba(201,169,255,0.95), rgba(233,217,255,0.9));
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.nav-brand{ font-weight:700; }
+.nav-links a{
+  margin-left:12px;
+  text-decoration:none;
+  padding:6px 10px;
+  border-radius:8px;
+}
+.nav-links a.active{
+  background: rgba(255,255,255,0.7);
+  font-weight:600;
+}
+
+.main-content {
+  flex:1;
+  padding:24px;
+}
+
+.page{
+  border-radius: 12px;
+  padding:20px;
+  min-height: 60vh;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.home { background: linear-gradient(180deg, var(--lavender), #fff); }
+.receitas { background: linear-gradient(180deg, var(--pink-pastel), #fff); }
+.sobre { background: linear-gradient(180deg, var(--purple-pastel), #fff); }
+.contato { background: linear-gradient(180deg, var(--mint), #fff); }
+
+.card{
+  background: rgba(255,255,255,0.8);
+  padding:12px;
+  border-radius:10px;
+  margin-top:12px;
+}
+.images-row{
+  display:flex;
+  gap:12px;
+  margin-top:12px;
+}
+.images-row img{
+  width:160px;
+  height:110px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.recipe{ margin-top:12px; }
+.ad{ margin-top:12px; padding:10px; border-radius:8px; background:rgba(255,255,255,0.6); font-weight:600; }
